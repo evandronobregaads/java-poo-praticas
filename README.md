@@ -21,7 +21,7 @@ O objetivo é consolidar os fundamentos da linguagem Java, aplicar conceitos de 
 | 01 | Construtores e sobrecarga | ✅ |
 | 02 | Encapsulamento | ✅ |
 | 03 | Herança | ✅ |
-| 04 | Polimorfismo | 📖 Em estudo |
+| 04 | Polimorfismo | 🔄 Em andamento — 1 prática concluída |
 | 05 | Classes e métodos abstratos | ⏳ Pendente |
 
 ## 💻 Exercícios desenvolvidos
@@ -59,6 +59,26 @@ Implementação de uma classe `Funcionario` e uma subclasse `Gerente`, aplicando
 - Sobrescrita com `@Override`
 - Reutilização de métodos
 - Polimorfismo
+
+### Módulo 04 — Polimorfismo
+
+**Exercício: Formas Geométricas**
+
+Desenvolvimento de um sistema para calcular a área de
+diferentes formas geométricas, aplicando os conceitos
+de herança, sobrescrita de métodos e polimorfismo.
+
+**Conceitos aplicados:**
+- Herança entre `Forma`, `Circulo` e `Quadrado`.
+- Sobrescrita do método `calcularArea()`.
+- Referências do tipo `Forma` para objetos das subclasses.
+- Polimorfismo por despacho dinâmico.
+- Reutilização de código e especialização de comportamentos.
+
+**Aprendizado:** o mesmo método pode apresentar
+comportamentos diferentes de acordo com o tipo real
+do objeto, sem que o código cliente precise escolher
+manualmente a implementação.
 
 ## 🎯 Objetivos de aprendizagem
 
